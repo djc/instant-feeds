@@ -1,0 +1,12 @@
+[package]
+name = "instant-feeds"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+license = "Apache-2.0 OR MIT"
+description = "Generate and parse Atom feeds"
+repository = "https://github.com/djc/instant-feeds"
+
+[dependencies]
+instant-xml = { version = "0.7.9", features = ["jiff"] }
+jiff = { version = "1", default-features = false }
